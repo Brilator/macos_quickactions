@@ -1,9 +1,9 @@
 # MacBook Touch Bar Quick Actions
 
 This repository holds my favorite quick actions for file handling.
-
-1. `dateCreated_.workflow`: Prepends **the file's creation date** to the file name.
-2. `dateToday_.workflow`: Prepends **today's** date to the file name.
+By just a click (finger-tip) in your touch bar, ...
+   - ... `dateCreated_.workflow` prepends **the file's creation date** to the file name.
+   - ... `dateToday_.workflow` prepends **today's** date to the file name.
 
 These dates are added [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)-compliant (YYYY-MM-DD).
 
