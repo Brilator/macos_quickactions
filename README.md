@@ -9,14 +9,6 @@ By just a click (finger-tip) in your touch bar, ...
    - ... `dateToday_.workflow` prepends **today's** date to the file name.
    - ... `docx2PDF.workflow` **generates a PDF** from a selected `*.docx` file [(see additional notes)](#docx2pdf)
 
-These dates are added [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)-compliant (YYYY-MM-DD).
-
-<figure>
-  <img src="img/ISO8601_datingProgrammer.png" style="width:80%">
-  <figcaption align = "left"><p style="color:grey;font-size:8px;">https://www.reddit.com/r/ProgrammerHumor/comments/uptfy9/dating_a_programmer/</p></figcaption>
-</figure>
-
-Quick actions are special types of macOS "Automator workflows". Somewhat intuitive to design and customize via the "Automator" app.
 
 - [Add quick actions to your touch bar](#add-quick-actions-to-your-touch-bar)
 - [Copy quick actions to your system](#copy-quick-actions-to-your-system)
@@ -26,6 +18,15 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
 - [Customize](#customize)
 - [Source](#source)
 
+
+The dates are added [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)-compliant (YYYY-MM-DD).
+
+<figure>
+  <img src="img/ISO8601_datingProgrammer.png" style="width:60%">
+  <figcaption align = "left"><p style="color:grey;font-size:8px;">https://www.reddit.com/r/ProgrammerHumor/comments/uptfy9/dating_a_programmer/</p></figcaption>
+</figure>
+
+Quick actions are special types of macOS "Automator workflows". Somewhat intuitive to design and customize via the "Automator" app.
 
 ## Add quick actions to your touch bar
 
@@ -106,6 +107,6 @@ In the `~/Library/Services` double-click one of the workflows to open it in "Aut
 Tutorial adapted from: https://www.idownloadblog.com/2020/01/07/run-quick-actions-touch-bar-mac-tutorial/
 
 <figure>
-  <img src="https://imgs.xkcd.com/comics/iso_8601_2x.png" style="width:80%">
+  <img src="https://imgs.xkcd.com/comics/iso_8601_2x.png" style="width:60%">
   <figcaption align = "left"><p style="color:grey;font-size:8px;">https://xkcd.com/1179</p></figcaption>
 </figure>
