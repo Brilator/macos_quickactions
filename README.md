@@ -9,6 +9,7 @@ By just a click (finger-tip) in your touch bar, ...
    - ... `dateToday_.workflow` prepends **today's** date to the file name.
    - ... `docx2PDF.workflow` **generates a PDF** from a selected `*.docx` file [(see additional notes)](#docx2pdf)
 
+## Content <!-- omit in toc --> 
 
 - [Add quick actions to your touch bar](#add-quick-actions-to-your-touch-bar)
 - [Copy quick actions to your system](#copy-quick-actions-to-your-system)
