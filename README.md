@@ -2,7 +2,7 @@
 
 This repository holds my favorite quick actions for file handling.
 
-![TouchBar](img/TouchBarQuickActions.png)
+![TouchBar](img/TouchBar_QuickActions.png)
 
 By just a click (finger-tip) in your touch bar, ...
    - ... `dateCreated_.workflow` prepends **the file's creation date** to the file name.
@@ -66,7 +66,7 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
 
 3. and use one of the Quick Actions on your files.
 
-![](img/TouchBarQuickActions.png)
+![](img/TouchBar_QuickActions.png)
 
 ## Warnings
 
