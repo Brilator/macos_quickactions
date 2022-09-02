@@ -2,7 +2,7 @@
 
 This repository holds my favorite quick actions for file handling.
 
-![](img/TouchBarQuickActions.png)
+![TouchBar](img/TouchBarQuickActions.png)
 
 By just a click (finger-tip) in your touch bar, ...
    - ... `dateCreated_.workflow` prepends **the file's creation date** to the file name.
