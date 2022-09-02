@@ -12,9 +12,6 @@ These dates are added [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)-complian
   <figcaption align = "left"><p style="color:grey;font-size:8px;">https://www.reddit.com/r/ProgrammerHumor/comments/uptfy9/dating_a_programmer/</p></figcaption>
 </figure>
 
-
-vertical-align: middle
-
 Quick actions are special types of macOS "Automator workflows". Somewhat intuitive to design and customize via the "Automator" app.
 
 - [Add quick actions to your touch bar](#add-quick-actions-to-your-touch-bar)
