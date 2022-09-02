@@ -7,10 +7,23 @@ By just a click (finger-tip) in your touch bar, ...
 
 These dates are added [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)-compliant (YYYY-MM-DD).
 
-![](img/ISO8601_date.png)
-https://www.reddit.com/r/ProgrammerHumor/comments/uptfy9/dating_a_programmer/?utm_source=share&utm_medium=web2x&context=3
+<figure>
+  <img src="img/ISO8601_datingProgrammer.png" style="width:80%">
+  <figcaption align = "left"><p style="color:grey;font-size:8px;">https://www.reddit.com/r/ProgrammerHumor/comments/uptfy9/dating_a_programmer/</p></figcaption>
+</figure>
+
+
+vertical-align: middle
 
 Quick actions are special types of macOS "Automator workflows". Somewhat intuitive to design and customize via the "Automator" app.
+
+- [Add quick actions to your touch bar](#add-quick-actions-to-your-touch-bar)
+- [Copy quick actions to your system](#copy-quick-actions-to-your-system)
+- [Test](#test)
+- [Warning](#warning)
+- [Customize](#customize)
+- [Source](#source)
+
 
 ## Add quick actions to your touch bar
 
@@ -40,7 +53,7 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
       1. via clicking there or ... 
       2. via terminal: `open -b com.apple.systempreferences /System/Library/PreferencePanes/Extensions.prefPane`
 
-![](img/extensionPref.png)
+<img src="img/extensionPref.png" style="width:60%">
 
 ## Test
 
@@ -55,20 +68,20 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
 
 ## Warning
 
-- quick actions on files / folders will be done twice without a warning
-  - already have a prepended date? => double date: 2022-09-01_2022-09-01_fileName.txt
+Quick actions on files and folders will be done twice without a warning: already have a prepended date? => double date: 2022-09-01_2022-09-01_fileName.txt
 
 ## Customize
 
 In the `~/Library/Services` double-click one of the workflows to open it in "Automator" and adapt it to your needs or create a new one.
 
+![](img/automator_quickAction.png)
+
+
 ## Source
 
-Adapted from: https://www.idownloadblog.com/2020/01/07/run-quick-actions-touch-bar-mac-tutorial/
+Tutorial adapted from: https://www.idownloadblog.com/2020/01/07/run-quick-actions-touch-bar-mac-tutorial/
 
-
-![](https://imgs.xkcd.com/comics/iso_8601_2x.png)
-https://xkcd.com/1179
-
-
-
+<figure>
+  <img src="https://imgs.xkcd.com/comics/iso_8601_2x.png" style="width:80%">
+  <figcaption align = "left"><p style="color:grey;font-size:8px;">https://xkcd.com/1179</p></figcaption>
+</figure>
