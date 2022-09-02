@@ -1,9 +1,13 @@
 # MacBook Touch Bar Quick Actions
 
 This repository holds my favorite quick actions for file handling.
+
+![](img/TouchBarQuickActions.png)
+
 By just a click (finger-tip) in your touch bar, ...
    - ... `dateCreated_.workflow` prepends **the file's creation date** to the file name.
    - ... `dateToday_.workflow` prepends **today's** date to the file name.
+   - ... `docx2PDF.workflow` **generates a PDF** from a selected `*.docx` file [(see additional notes)](#docx2pdf)
 
 These dates are added [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)-compliant (YYYY-MM-DD).
 
@@ -17,7 +21,8 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
 - [Add quick actions to your touch bar](#add-quick-actions-to-your-touch-bar)
 - [Copy quick actions to your system](#copy-quick-actions-to-your-system)
 - [Test](#test)
-- [Warning](#warning)
+- [Warnings](#warnings)
+  - [docx2PDF](#docx2pdf)
 - [Customize](#customize)
 - [Source](#source)
 
@@ -59,13 +64,35 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
 
 ![](img/TouchBar.png)
 
-3. and use one of the Quick Actions on the files.
+3. and use one of the Quick Actions on your files.
 
 ![](img/TouchBarQuickActions.png)
 
-## Warning
+## Warnings
 
 Quick actions on files and folders will be done twice without a warning: already have a prepended date? => double date: 2022-09-01_2022-09-01_fileName.txt
+
+### docx2PDF
+
+> Note: This one is more complicated than the standard automator workflows.
+
+1. It comes with dependencies you need to install.
+2. It does not produce a perfect PDF like the one that MS Word would produce from your *.docx file. In particular, any (special) formatting, figures, tables, etc. will likely be off.
+
+Still, for most quick "I want to convert those docx files to be able to easily share and read them on my other devices (tablet, smart phone, computer without word)", it does the job.
+
+And, if it does not work, it will just not produce anything and probably display an error message. Your docx file will not be changed or deleted.
+
+**Install dependencies:**
+
+This tool requires [pandoc](https://pandoc.org/installing) and LaTeX (follow instructions on pandoc page) to be installed at exactly the default macOS locations. 
+
+After installation, test wether the files are there: 
+
+```bash
+ls -l /usr/local/bin/pandoc
+ls -l /Library/TeX/texbin/pdflatex
+```
 
 ## Customize
 
