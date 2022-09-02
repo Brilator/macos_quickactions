@@ -12,7 +12,9 @@ By just a click (finger-tip) in your touch bar, ...
 ## Content <!-- omit in toc --> 
 
 - [Add quick actions to your touch bar](#add-quick-actions-to-your-touch-bar)
-- [Copy quick actions to your system](#copy-quick-actions-to-your-system)
+- [Install the quick action workflows](#install-the-quick-action-workflows)
+  - [The easy way](#the-easy-way)
+  - [The "I want to know what's happening way"](#the-i-want-to-know-whats-happening-way)
 - [Test](#test)
 - [Warnings](#warnings)
   - [docx2PDF](#docx2pdf)
@@ -45,7 +47,17 @@ Quick actions are special types of macOS "Automator workflows". Somewhat intuiti
 
 ![](img/customizeControl.drawio.svg)
 
-## Copy quick actions to your system
+## Install the quick action workflows
+
+Download or clone this repository (or just the `workflows` folder or selected workflows therein). 
+
+### The easy way
+
+1. Double-click the workflow file
+2. macOS will ask you "Do you want to install the “docx2PDF” quick action?".
+3. Click "Install"
+
+### The "I want to know what's happening way"
 
 1. Navigate to  `~/Library/Services`
    1. Via terminal: `open ~/Library/Services` or 
