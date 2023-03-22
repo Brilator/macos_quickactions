@@ -12,7 +12,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>ISO8601Date</string>
+				<string>8char-Ymd-2-ISO8601</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>

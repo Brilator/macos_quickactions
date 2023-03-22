@@ -78,14 +78,7 @@ do
         dateNew=$(date -j -f "%Y%m%d" $date_prefix +%Y-%m-%d)
         mv "$file" "$pathname"/"$dateNew${filename:8}"    
     else    
-        date_prefix6=${filename:0:6}
-        if [[ $date_prefix6 =~ ^[[:digit:]]{6}$ ]] &amp;&amp; date -j -f "%Y%m" $date_prefix6  &gt;/dev/null
-        then      
-        dateNew=$(date -j -f "%Y%m" $date_prefix6 +%Y-%m)
-        mv "$file" "$pathname"/"$dateNew${filename:6}" 
-        else
-            echo "Filename of $file not changed"
-        fi          
+        echo "Filename of $file not changed"        
     fi  
 done</string>
 					<key>CheckedForUserDefaultShell</key>
@@ -202,7 +195,7 @@ done</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>591.000000:803.000000</string>
+				<string>591.000000:773.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
